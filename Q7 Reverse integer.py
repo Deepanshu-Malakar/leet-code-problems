@@ -18,7 +18,7 @@
 # Output: 21
 
 class Solution:
-    def reverse(self, x: int) -> int:
+    def reverse(self, x: int) -> int: 
         if(x>=0):
             s=str(x)
             y=int(s[::-1])
