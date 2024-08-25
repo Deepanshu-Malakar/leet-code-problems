@@ -15,6 +15,20 @@
 
 
 #this solution is based on moores algorythm
+
+# moores algorythm
+# this algorythm helps us find which element has the heighest probability to be the majority element
+
+# 1] make 2 variables count,element ;
+# 2] at first let count=0;
+# 3]run a for loop from 0 to n
+# 4]if count ==0 , assign element =arr[i]
+# 6]if element ==a[i], count++
+# 7]if element !=a[i], count--
+# 8]till the end of the for loop if count<=0 then there is no majority element
+# 9]if count >0 then the majority element maybe element
+# 10]count the number of times element occurs in array , if it occurs more than n/2 times it is the majority element
+
 class Solution:
     def majorityElement(self, nums: list[int]) -> int:
         cnt=0
