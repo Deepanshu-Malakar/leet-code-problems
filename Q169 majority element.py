@@ -28,7 +28,7 @@
 # 8]till the end of the for loop if count<=0 then there is no majority element
 # 9]if count >0 then the majority element maybe element
 # 10]count the number of times element occurs in array , if it occurs more than n/2 times it is the majority element
-
+#we can use hashing also for the same problem
 class Solution:
     def majorityElement(self, nums: list[int]) -> int:
         cnt=0
